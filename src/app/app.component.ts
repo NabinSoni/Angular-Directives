@@ -10,6 +10,7 @@ export class AppComponent {
   onlyOdd = false;
   evenNumbers = [2,4,6,8,10];
   oddNumbers = [1,3,5,7,9];
+  value = 5;
 
   getNumbers(){
     this.onlyOdd = !this.onlyOdd;
